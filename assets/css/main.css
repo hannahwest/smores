@@ -1,0 +1,140 @@
+/* 
+==============================================
+CONTENT:	Project Name Here
+AUTHOR:		Your Name Here
+==============================================
+
+TABLE OF CONTENTS:
+
+1. Main Layout
+2. Content
+
+==============================================
+*/
+/* 1. Main Layout ================================= */
+* {
+  box-sizing: border-box; }
+
+body {
+  background: #dbcfbe;
+  width: 100%;
+  height: 100vh;
+   }
+
+
+
+/* 2. Content ================================= */
+.logo {
+  width: 100%;
+  height: 100px;
+  background-image: url(../img/logo.png); 
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.name {
+  color: #fff;
+  text-align: center;
+  font-size: .9em;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.main-nav {
+  display: flex;
+  flex-direction: row;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  color: #f0470f;
+  justify-content: center;
+}
+
+.main-nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+.main-nav li {
+   margin-left: 1%;
+   font-size: .8em;
+   font-weight: 700;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   text-align: center;
+}
+.main-nav a {
+  color: #f0470f;
+  text-decoration: underline;
+}
+
+.about{
+  display: flex;
+  flex-direction: column;
+}
+
+.about h1 {
+  color: #443526;
+  text-transform: uppercase;
+  font-size: 2.5em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  margin:10%;
+}
+
+.tagline {
+  color: #443526;
+  margin: 2%;
+  font-size: 1.2em;
+}
+
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.table {
+  background-color: #e2d9cb;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ebe4db;
+  border-radius: 2px;
+  margin: 10px;
+}
+
+
+.frame-icon {
+  background-image: url(../img/frame.png);
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-self: center;
+  top: -5px;
+
+}
+
+legend {
+  color: #443526;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  font-size: 1.8em;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.table p {
+  color: #443526;
+}
+
+input[type=radio]{
+  margin-left: 20px;
+}
+
+
+/*# sourceMappingURL=main.css.map */
